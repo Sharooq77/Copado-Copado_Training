@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.text_filed__c</members>
+        <members>Contact.dev_1_filed__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contact-new layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Standard</members>
+        <name>Profile</name>
     </types>
     <version>58.0</version>
 </Package>
