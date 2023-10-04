@@ -4,5 +4,10 @@
         <members>Contact-contact new layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Admin</members>
+        <members>MarketingProfile</members>
+        <name>Profile</name>
+    </types>
     <version>58.0</version>
 </Package>
