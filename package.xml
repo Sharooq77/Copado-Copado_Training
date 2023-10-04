@@ -5,10 +5,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Contact-new layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
         <members>Standard</members>
         <name>Profile</name>
     </types>
