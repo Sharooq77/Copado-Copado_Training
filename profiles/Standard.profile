@@ -14871,7 +14871,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>Account-account layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Formato de activos</layout>
