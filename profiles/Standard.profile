@@ -14922,7 +14922,11 @@
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-new layout</layout>
+        <layout>Contact-contact layout copado</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-contact layout copado</layout>
+        <recordType>Contact.contact_record_type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointAddress-Formato Dirección de punto de contacto</layout>
@@ -16247,6 +16251,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.account_record_type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contact.contact_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
