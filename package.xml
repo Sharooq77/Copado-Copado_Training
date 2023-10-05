@@ -10,6 +10,11 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>MarketingProfile</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Account.account_record_type</members>
         <name>RecordType</name>
     </types>
