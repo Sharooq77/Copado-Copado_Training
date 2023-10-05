@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact-contact layout copado</members>
+        <members>Account.Account_picklist__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>weather_list</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Account-Acc global layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -9,10 +17,6 @@
         <members>Standard</members>
         <members>StandardAul</members>
         <name>Profile</name>
-    </types>
-    <types>
-        <members>Contact.contact_record_type</members>
-        <name>RecordType</name>
     </types>
     <version>58.0</version>
 </Package>
