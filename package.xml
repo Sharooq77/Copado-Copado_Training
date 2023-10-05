@@ -5,5 +5,10 @@
         <members>Account-account layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>MarketingProfile</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
     <version>58.0</version>
 </Package>
