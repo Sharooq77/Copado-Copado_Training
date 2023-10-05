@@ -6,6 +6,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Account.AnnualRevenue</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>permission_for_filed_and_apex_class</members>
         <name>PermissionSet</name>
     </types>
