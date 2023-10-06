@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>welcome_flow</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>welcome_flow</members>
-        <name>FlowDefinition</name>
+        <members>biggest_number</members>
+        <name>LightningComponentBundle</name>
     </types>
     <version>58.0</version>
 </Package>
