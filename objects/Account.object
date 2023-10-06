@@ -380,6 +380,26 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>account_record_type</fullName>
+        <active>true</active>
+        <label>account record type</label>
+        <picklistValues>
+            <picklist>Account_picklist__c</picklist>
+            <values>
+                <fullName>air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>sky</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
