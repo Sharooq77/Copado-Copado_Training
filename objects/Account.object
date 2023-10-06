@@ -238,6 +238,18 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Account_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Account picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>weather_list</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -401,6 +413,21 @@
         <fullName>account_record_type</fullName>
         <active>true</active>
         <label>account record type</label>
+        <picklistValues>
+            <picklist>Account_picklist__c</picklist>
+            <values>
+                <fullName>air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>sky</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>weather__c</picklist>
             <values>
