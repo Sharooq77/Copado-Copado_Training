@@ -161,4 +161,14 @@
         <default>false</default>
         <label>Servicios públicos</label>
     </standardValue>
+    <standardValue>
+        <fullName>Information</fullName>
+        <default>false</default>
+        <label>Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>artifical intelligence</fullName>
+        <default>false</default>
+        <label>artifical intelligence</label>
+    </standardValue>
 </StandardValueSet>
