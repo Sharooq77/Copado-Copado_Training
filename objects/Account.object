@@ -414,6 +414,21 @@
         <active>true</active>
         <label>account record type</label>
         <picklistValues>
+            <picklist>Account_picklist__c</picklist>
+            <values>
+                <fullName>air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>sky</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>weather__c</picklist>
             <values>
                 <fullName>cold</fullName>
