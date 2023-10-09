@@ -46,5 +46,5 @@
             <targetReference>welcome_flow</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
 </Flow>
