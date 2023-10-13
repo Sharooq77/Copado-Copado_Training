@@ -3,6 +3,7 @@ public class AccountHandler {
         if (acc != null && newRating != null) {
             acc.Rating = newRating;
             update acc;
+            //inserted succesfully
         }
     }
 }
