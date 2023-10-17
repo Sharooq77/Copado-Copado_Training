@@ -254,6 +254,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Another_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Another picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>high</fullName>
+                    <default>false</default>
+                    <label>high</label>
+                </value>
+                <value>
+                    <fullName>medium</fullName>
+                    <default>false</default>
+                    <label>medium</label>
+                </value>
+                <value>
+                    <fullName>low</fullName>
+                    <default>false</default>
+                    <label>low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
