@@ -350,19 +350,21 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>warm</fullName>
+                    <default>false</default>
+                    <label>warm</label>
+                </value>
+                <value>
                     <fullName>cold</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>cold</label>
                 </value>
                 <value>
                     <fullName>hot</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>hot</label>
-                </value>
-                <value>
-                    <fullName>warm</fullName>
-                    <default>false</default>
-                    <label>warm</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
