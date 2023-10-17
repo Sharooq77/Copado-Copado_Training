@@ -414,13 +414,11 @@
                 <value>
                     <fullName>cold</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>cold</label>
                 </value>
                 <value>
                     <fullName>hot</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>hot</label>
                 </value>
             </valueSetDefinition>
