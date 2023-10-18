@@ -4,5 +4,9 @@
         <members>Contact.text_picklist__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Contact.test_recordtype</members>
+        <name>RecordType</name>
+    </types>
     <version>58.0</version>
 </Package>
