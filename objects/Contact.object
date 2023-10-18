@@ -537,6 +537,30 @@
         <active>true</active>
         <label>contact record type</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>test_recordtype</fullName>
+        <active>true</active>
+        <label>test recordtype</label>
+        <picklistValues>
+            <picklist>text_picklist__c</picklist>
+            <values>
+                <fullName>test-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
