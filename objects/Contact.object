@@ -465,11 +465,6 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>test-1</fullName>
-                    <default>false</default>
-                    <label>test-1</label>
-                </value>
-                <value>
                     <fullName>test-2</fullName>
                     <default>false</default>
                     <label>test-2</label>
@@ -483,6 +478,12 @@
                     <fullName>test-4</fullName>
                     <default>false</default>
                     <label>test-4</label>
+                </value>
+                <value>
+                    <fullName>test-1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>test-1</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
