@@ -480,6 +480,11 @@
                     <label>test-4</label>
                 </value>
                 <value>
+                    <fullName>test-5</fullName>
+                    <default>false</default>
+                    <label>test-5</label>
+                </value>
+                <value>
                     <fullName>test-1</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
