@@ -444,6 +444,11 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <recordTypes>
+        <fullName>testing_recordtype</fullName>
+        <active>true</active>
+        <label>testing recordtype</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
