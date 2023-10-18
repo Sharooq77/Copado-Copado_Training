@@ -11,5 +11,6 @@ public class SimpleApexClass {
     // Public method
     public String getMessage() {
         return message; // Returns the message variable
+        //system.debug();
     }
 }
