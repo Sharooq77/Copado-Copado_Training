@@ -254,6 +254,75 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Another_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Another picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>test_picklist__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>high</fullName>
+                    <default>false</default>
+                    <label>high</label>
+                </value>
+                <value>
+                    <fullName>medium</fullName>
+                    <default>false</default>
+                    <label>medium</label>
+                </value>
+                <value>
+                    <fullName>low</fullName>
+                    <default>false</default>
+                    <label>low</label>
+                </value>
+                <value>
+                    <fullName>hyd</fullName>
+                    <default>false</default>
+                    <label>hyd</label>
+                </value>
+                <value>
+                    <fullName>mumbai</fullName>
+                    <default>false</default>
+                    <label>mumbai</label>
+                </value>
+                <value>
+                    <fullName>knl</fullName>
+                    <default>false</default>
+                    <label>knl</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>cold</controllingFieldValue>
+                <valueName>low</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>cold</controllingFieldValue>
+                <valueName>hyd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hot</controllingFieldValue>
+                <valueName>mumbai</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hot</controllingFieldValue>
+                <valueName>knl</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>warm</controllingFieldValue>
+                <valueName>high</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>warm</controllingFieldValue>
+                <valueName>medium</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -357,13 +426,11 @@
                 <value>
                     <fullName>cold</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>cold</label>
                 </value>
                 <value>
                     <fullName>hot</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>hot</label>
                 </value>
             </valueSetDefinition>
