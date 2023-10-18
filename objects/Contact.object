@@ -453,6 +453,46 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>text_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>text picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>test-2</fullName>
+                    <default>false</default>
+                    <label>test-2</label>
+                </value>
+                <value>
+                    <fullName>test-3</fullName>
+                    <default>false</default>
+                    <label>test-3</label>
+                </value>
+                <value>
+                    <fullName>test-4</fullName>
+                    <default>false</default>
+                    <label>test-4</label>
+                </value>
+                <value>
+                    <fullName>test-5</fullName>
+                    <default>false</default>
+                    <label>test-5</label>
+                </value>
+                <value>
+                    <fullName>test-1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>test-1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllContacts</fullName>
         <columns>FULL_NAME</columns>
