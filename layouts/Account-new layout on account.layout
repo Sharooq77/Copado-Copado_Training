@@ -12,6 +12,10 @@
         <label>Fields</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>demo_filed__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
@@ -27,12 +31,7 @@
                 <field>relationship_filed__c</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>demo_filed__c</field>
-            </layoutItems>
-        </layoutColumns>
+        <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
