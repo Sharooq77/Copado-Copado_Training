@@ -369,6 +369,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>relationship_filed__c</fullName>
+        <externalId>false</externalId>
+        <label>relationship filed</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>text_filed__c</fullName>
         <externalId>false</externalId>
         <label>text_filed</label>
