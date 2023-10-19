@@ -327,37 +327,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>test_picklist__c</fullName>
-        <externalId>false</externalId>
-        <label>test picklist</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>warm</fullName>
-                    <default>false</default>
-                    <label>warm</label>
-                </value>
-                <value>
-                    <fullName>cold</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>cold</label>
-                </value>
-                <value>
-                    <fullName>hot</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>hot</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>text_filed__c</fullName>
         <externalId>false</externalId>
         <label>text_filed</label>
