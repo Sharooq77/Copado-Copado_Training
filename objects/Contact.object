@@ -444,6 +444,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>contact_filed__c</fullName>
+        <externalId>false</externalId>
+        <label>contact filed</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>dev_1_filed__c</fullName>
         <externalId>false</externalId>
         <label>dev 1 filed</label>
