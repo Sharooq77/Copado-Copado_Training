@@ -444,6 +444,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>contact_filed__c</fullName>
+        <externalId>false</externalId>
+        <label>contact filed</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>dev_1_filed__c</fullName>
         <externalId>false</externalId>
         <label>dev 1 filed</label>
@@ -478,11 +488,6 @@
                     <fullName>test-4</fullName>
                     <default>false</default>
                     <label>test-4</label>
-                </value>
-                <value>
-                    <fullName>test-5</fullName>
-                    <default>false</default>
-                    <label>test-5</label>
                 </value>
                 <value>
                     <fullName>test-1</fullName>
@@ -542,6 +547,26 @@
         <fullName>contact_record_type</fullName>
         <active>true</active>
         <label>contact record type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>test_recordtype</fullName>
+        <active>true</active>
+        <label>test recordtype</label>
+        <picklistValues>
+            <picklist>text_picklist__c</picklist>
+            <values>
+                <fullName>test-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
