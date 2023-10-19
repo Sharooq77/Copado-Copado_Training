@@ -5,12 +5,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Contact-new layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Standard</members>
-        <name>Profile</name>
+        <members>contact_permission_set</members>
+        <name>PermissionSet</name>
     </types>
     <version>58.0</version>
 </Package>
