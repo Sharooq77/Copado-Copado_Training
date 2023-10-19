@@ -20,7 +20,9 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+<<<<<<< HEAD:layouts/Account-Acc global layout.layout
                 <field>AnnualRevenue</field>
+layouts/Account-account layout.layout
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
