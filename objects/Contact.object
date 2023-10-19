@@ -480,11 +480,6 @@
                     <label>test-4</label>
                 </value>
                 <value>
-                    <fullName>test-5</fullName>
-                    <default>false</default>
-                    <label>test-5</label>
-                </value>
-                <value>
                     <fullName>test-1</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -542,6 +537,26 @@
         <fullName>contact_record_type</fullName>
         <active>true</active>
         <label>contact record type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>test_recordtype</fullName>
+        <active>true</active>
+        <label>test recordtype</label>
+        <picklistValues>
+            <picklist>text_picklist__c</picklist>
+            <values>
+                <fullName>test-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
