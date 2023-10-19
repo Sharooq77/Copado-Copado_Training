@@ -327,6 +327,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>demo_object__c</fullName>
+        <externalId>false</externalId>
+        <label>demo object</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>relationship_filed__c</fullName>
         <externalId>false</externalId>
         <label>relationship filed</label>
