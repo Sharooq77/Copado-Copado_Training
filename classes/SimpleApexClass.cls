@@ -12,5 +12,6 @@ public class SimpleApexClass {
     public String getMessage() {
         return message; // Returns the message variable
         //system.debug();
+        // System.assertEquals('Hello, World!', result);
     }
 }

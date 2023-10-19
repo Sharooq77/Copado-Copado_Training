@@ -11,5 +11,7 @@ public class SimpleApexClassTest {
         
         // Verify that the result matches the expected message
         System.assertEquals('Hello, World!', result);
+         //System.assertEquals('Hello, World!', result);
+        
     }
 }
