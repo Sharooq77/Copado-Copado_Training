@@ -242,6 +242,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Another_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Another picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>high</fullName>
+                    <default>false</default>
+                    <label>high</label>
+                </value>
+                <value>
+                    <fullName>medium</fullName>
+                    <default>false</default>
+                    <label>medium</label>
+                </value>
+                <value>
+                    <fullName>low</fullName>
+                    <default>false</default>
+                    <label>low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -327,6 +356,37 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>test_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>test picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>warm</fullName>
+                    <default>false</default>
+                    <label>warm</label>
+                </value>
+                <value>
+                    <fullName>cold</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>cold</label>
+                </value>
+                <value>
+                    <fullName>hot</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>hot</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>text_filed__c</fullName>
         <externalId>false</externalId>
         <label>text_filed</label>
@@ -335,6 +395,35 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>weather__c</fullName>
+        <externalId>false</externalId>
+        <label>weather</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>cold</fullName>
+                    <default>false</default>
+                    <label>cold</label>
+                </value>
+                <value>
+                    <fullName>hot</fullName>
+                    <default>false</default>
+                    <label>hot</label>
+                </value>
+                <value>
+                    <fullName>warm</fullName>
+                    <default>false</default>
+                    <label>warm</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
@@ -368,6 +457,31 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>account_record_type</fullName>
+        <active>true</active>
+        <label>account record type</label>
+        <picklistValues>
+            <picklist>weather__c</picklist>
+            <values>
+                <fullName>cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>testing_recordtype</fullName>
+        <active>true</active>
+        <label>testing recordtype</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
