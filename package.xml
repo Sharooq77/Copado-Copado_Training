@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact.dev_1_filed__c</members>
+        <members>Account.weather__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>contact_permission_set</members>
-        <name>PermissionSet</name>
+        <members>Account-Acoount PageLayout</members>
+        <members>Account-account layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>MarketingProfile</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.account_record_type</members>
+        <name>RecordType</name>
     </types>
     <version>58.0</version>
 </Package>
