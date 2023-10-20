@@ -560,10 +560,6 @@
         <picklistValues>
             <picklist>text_picklist__c</picklist>
             <values>
-                <fullName>test-1</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>test-2</fullName>
                 <default>false</default>
             </values>
