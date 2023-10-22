@@ -153,6 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Html__c</fullName>
+        <externalId>false</externalId>
+        <label>Html</label>
+        <length>11000</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
     <label>testing object</label>
     <nameField>
         <label>testing object Name</label>
