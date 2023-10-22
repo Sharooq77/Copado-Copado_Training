@@ -38,7 +38,7 @@
         </ipRanges>
     </networkAccess>
     <passwordPolicies>
-        <complexity>AlphaNumeric</complexity>
+        <complexity>NoRestriction</complexity>
         <expiration>SixMonths</expiration>
         <historyRestriction>3</historyRestriction>
         <lockoutInterval>FifteenMinutes</lockoutInterval>
