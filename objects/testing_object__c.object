@@ -170,6 +170,19 @@
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
+    <fields>
+        <fullName>MultiselectPicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>MultiselectPicklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>copado__Compliance_Action</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
     <label>testing object</label>
     <nameField>
         <label>testing object Name</label>
