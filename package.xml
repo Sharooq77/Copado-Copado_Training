@@ -4,9 +4,5 @@
         <members>demo_object__c</members>
         <name>CustomObject</name>
     </types>
-    <types>
-        <members>demo_object__c</members>
-        <name>CustomTab</name>
-    </types>
     <version>58.0</version>
 </Package>
