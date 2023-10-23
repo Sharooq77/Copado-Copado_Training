@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>demo_object__c</members>
-        <name>CustomObject</name>
+        <members>demo_object__c.name_filed__c</members>
+        <members>demo_object__c.phone__c</members>
+        <name>CustomField</name>
     </types>
     <version>58.0</version>
 </Package>
