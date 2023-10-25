@@ -14968,11 +14968,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>demo_object__c.desk_filed__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>demo_object__c.destrive_filed__c</field>
         <readable>false</readable>
     </fieldPermissions>
