@@ -198,6 +198,11 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>new testing objects</pluralLabel>
+    <recordTypes>
+        <fullName>new_testing_object_layout</fullName>
+        <active>true</active>
+        <label>new testing object layout</label>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
