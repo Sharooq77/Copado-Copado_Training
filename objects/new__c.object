@@ -154,9 +154,9 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>desk_filed__c</fullName>
+        <fullName>new_testing_object__c</fullName>
         <externalId>false</externalId>
-        <label>desk filed</label>
+        <label>new testing object</label>
         <length>80</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -164,31 +164,40 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>name_filed__c</fullName>
+        <fullName>new_testing_object_picklist__c</fullName>
         <externalId>false</externalId>
-        <label>name filed</label>
-        <length>80</length>
+        <label>new testing object picklist</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>one</fullName>
+                    <default>false</default>
+                    <label>one</label>
+                </value>
+                <value>
+                    <fullName>two</fullName>
+                    <default>false</default>
+                    <label>two</label>
+                </value>
+                <value>
+                    <fullName>five</fullName>
+                    <default>false</default>
+                    <label>five</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
-    <fields>
-        <fullName>phone__c</fullName>
-        <externalId>false</externalId>
-        <label>phone</label>
-        <length>80</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>demo object</label>
+    <label>new testing object</label>
     <nameField>
-        <label>demo object Name</label>
+        <label>new  Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>demo objects</pluralLabel>
+    <pluralLabel>new testing objects</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
